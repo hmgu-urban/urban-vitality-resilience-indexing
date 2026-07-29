@@ -1,7 +1,7 @@
 # Urban Vitality Resilience Indexing (UVRI) method package
 
-This package contains files for preparing a MethodsX-style method article based on the
-published study:
+This package contains reproducibility materials for the Urban Vitality Resilience Indexing (UVRI)
+method article, which extends the published study:
 
 Lee, S., Gu, H., Kim, S., & Kim, K. (2026). Resilience of urban vitality under external shocks:
 Planning insights from Seoul during the COVID-19 pandemic. Sustainable Cities and Society, 141, 107232.
@@ -29,7 +29,8 @@ https://doi.org/10.1016/j.scs.2026.107232
   - Columns: `unit_id`, `month`, `t`, `vitality`, `trajectory_type`.
   - The activity column is named `vitality` (pass `value_col = "vitality"`).
 - `synthetic_unit_metadata.csv`
-  - Trajectory type and simulated turning points for each synthetic unit.
+  - Trajectory type and data-generating peak, local minimum, and local maximum for each
+    synthetic unit.
 - `synthetic_resilience_outputs.csv`
   - UVRI output calculated from the synthetic dataset.
 - `synthetic_validation_summary.csv`
